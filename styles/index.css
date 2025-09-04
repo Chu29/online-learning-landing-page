@@ -326,6 +326,7 @@ iframe {
 
   #hero {
     padding: 20px;
+    background-image: url(../images/girl.png);
   }
 
   .mobile-small {
