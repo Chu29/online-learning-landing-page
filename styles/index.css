@@ -51,6 +51,10 @@ button.join-now {
   font-family: Poppins, sans-serif;
 }
 
+.mobile-header {
+  display: none;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -191,20 +195,18 @@ button.join-now {
 .email {
   top: 350px;
   right: -140px;
+  align-items: center;
 }
 
 .user {
   bottom: -580px;
   left: -80px;
-}
-
-.email {
+  flex-direction: column;
   align-items: center;
 }
 
 .email > img {
-  padding: 10px;  padding: 20px;
-
+  padding: 10px;
   border-radius: 10px;
   background: #f48c06;
 }
@@ -215,23 +217,83 @@ button.join-now {
   top: 10px;
 }
 
-.user {
-  flex-direction: column;
-  align-items: center;
-}
-
 .user-text {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-.user-text img:nth-child(1){
+.user-text img:nth-child(1) {
   position: relative;
 }
 
-.user-text img:nth-child(2){
+.user-text img:nth-child(2) {
   position: absolute;
   left: 70px;
   top: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo-mobile {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .logo-mobile > span {
+    left: 20px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 32px;
+    color: #113c49;
+    letter-spacing: 2px;
+  }
+
+  button.login,
+  button.signup {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+  }
+  
+  .hero-right {
+    display: none;
+  }
+
+  .hero-left {
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 48px;
+  }
+
+  .hero-left > p {
+    font-size: 18px;
+  }
+
+  .hero-cta {
+    justify-content: center;
+  }
+
+  .hero-cta > p {
+    font-size: 18px;
+}
+
+  #hero {
+    gap: 80px;
+  }
 }
