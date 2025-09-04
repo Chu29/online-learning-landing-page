@@ -4,14 +4,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppins", sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 .section {
   height: 100vh;
 }
 
-#logotext p,
+#logotext p{
+  text-align: center;
+}
+
 .allinoneheadertext p {
   text-align: center;
 
