@@ -4,4 +4,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+span {
+  color: #f48c06;
+}
+
+.featuretext2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featuretextpic {
+  width: 48%;
+}
+
+.featuretextpic img {
+  width: 100%;
+}
+
+.featurerighttext {
+  width: 48%;
 }
