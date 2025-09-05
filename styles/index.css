@@ -472,3 +472,38 @@ iframe {
     margin: -45px auto;
   }
 }
+
+#blog {
+  height: 100vh;
+  font-family: Poppins, sans-serif;
+}
+
+.blog-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.blog-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.blog-left,
+.blog-right {
+  display: flex;
+  flex-direction: column;
+  max-width: 640px;
+  justify-content: space-evenly;
+}
+
+.blog-right {
+  max-width: 500px;
+}
+
+.blog-right article {
+  display: flex;
+}
