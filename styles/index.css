@@ -5,11 +5,39 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container1 {
-  background-color: white;
-  background-image: url(../images/Group/22.png);
-  color: white;
-  background-repeat: no-repeat;
-  padding-top: 200px;
-  padding-bottom: 200px;
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  grid-template-rows: auto;
+  gap: 2rem;
+}
+
+.left-section, .right-section {
+flex: 1;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+text-align: center;
+}
+
+.left-section {
+  background-image: url("../images/Group\ 22.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-content: center;
+}
+
+.right-section {
+  background-image: url("../images/Rectangle\ 21.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.flex-container {
+      display: flex;
+      gap: 20px;
 }
