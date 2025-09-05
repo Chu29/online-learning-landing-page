@@ -4,6 +4,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+.logorow img {
+  width: 10%;
+}
+
+.boxtext img {
+  width: 150px;
+  margin: -70px auto;
+  position: relative;
+  top: -45px;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
 button {
@@ -351,5 +365,110 @@ iframe {
   .hero-cta img,
   .hero-cta p {
     display: none;
+  }
+}
+
+.section {
+  height: 100vh;
+  padding: 40% 0 0;
+}
+
+.allinoneheadertext p {
+  text-align: center;
+  color: #696984;
+}
+
+.boxtext p {
+  display: flex;
+  width: 100%;
+  color: #696984;
+}
+
+.logorow {
+  display: flex;
+  justify-content: space-around;
+  padding: 1% 10%;
+}
+
+#logotext p {
+  text-align: center;
+  color: #696984;
+}
+
+#allinone {
+  padding: 3%;
+}
+
+.allinoneheadertext {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5%;
+}
+
+.allinoneheadertext h1 {
+  color: #2f327d;
+}
+
+.allinoneheadertext span {
+  color: #f48c06;
+}
+
+.allinoneheaderbox2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  padding: 5% 0 0 5%;
+  margin: auto;
+}
+
+.boxtext {
+  background-color: #ffff;
+  border-radius: 20px;
+  box-shadow: 0 0 30px -20px #262d76;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  text-align: center;
+  padding: 5% 2%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.boxtext:hover {
+  transform: translateY(-5px);
+}
+
+.boxtext h2 {
+  display: flex;
+  width: 100%;
+  padding: 6% 0;
+  color: #2f327d;
+}
+
+.boxtext img:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 770px) {
+  .section {
+    padding: 50% 0 0;
+  }
+
+  .allinoneheaderbox2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 0;
+  }
+
+  .boxtext {
+    width: 100%;
+    margin: 10%;
+  }
+
+  .boxtext img {
+    top: -30px;
+    margin: -45px auto;
   }
 }
