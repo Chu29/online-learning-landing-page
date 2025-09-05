@@ -9,12 +9,17 @@
 
 #section_1 {
   height: 120vh;
-  padding: 0 5%;
+  padding: 10% 5%;
 }
 
 span {
   color: #f48c06;
 }
+
+.feature1box {
+  margin: 3% 0;
+}
+
 .featuretext1 {
   text-align: center;
 }
@@ -24,6 +29,7 @@ span {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  margin: 3% 0;
 }
 
 .featuretextpic2 {
@@ -60,11 +66,15 @@ span {
   width: 48%;
 }
 
-.featuretext3, .featuretext4, .featuretext5, .featuretext6 {
+.featuretext3,
+.featuretext4,
+.featuretext5,
+.featuretext6 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  margin: 10% 0;
 }
 
 .featuretext3 h1 {
@@ -110,10 +120,6 @@ span {
   left: 10%;
 }
 
-.overlaypic img {
-  width: 100%;
-}
-
 .featuretextpic5 {
   background-color: #ffff;
   border-radius: 15px;
@@ -126,6 +132,13 @@ span {
   background-color: #54aff0;
   height: 20%;
   border-radius: 15px 15px 0 0;
+}
+
+.buttonbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 3% 0;
 }
 
 .smfbutton {
@@ -154,4 +167,43 @@ span {
 .featuretextpic6 .overlaypic6 {
   position: absolute;
   left: 50px;
+}
+
+@media screen and (max-width: 770px) {
+  #section_1 {
+    text-align: center;
+  }
+
+  .featuretextpic2,
+  .featurelrtext,
+  .featuretextpic3,
+  .featuretextpic5,
+  .featuretextpic6 {
+    width: 100%;
+  }
+
+  .featuretext3 h1 {
+    width: 100%;
+  }
+
+  .featuretextpic4 {
+    width: 90%;
+  }
+
+  .smfbutton {
+    width: 60%;
+  }
+
+  .featuretextpic4 .mg {
+    right: -25px;
+  }
+
+  .featuretextpic4 .overlaypic {
+    width: 100%;
+    top: 70%;
+    right: -50rem;
+}
+  .featuretextpic6 .overlaypic6 {
+    left: 25px;
+  }
 }
