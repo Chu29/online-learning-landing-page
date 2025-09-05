@@ -242,6 +242,10 @@ iframe {
   background: #f48c06;
 }
 
+.card-1 img {
+  width: 120px;
+}
+
 .email img:last-child {
   position: absolute;
   right: 10px;
@@ -404,6 +408,21 @@ iframe {
   font-size: 12px;
 }
 
+.card-2 > p {
+  font-family: "Nunito Sans", sans-serif;
+  color: #696984;
+}
+
+.card-3 p {
+  font-family: Poppins, sans-serif;
+  color: #696984;
+  letter-spacing: 2px;
+}
+
+.card-3 button > img {
+  width: 48px;
+}
+
 #logotext p {
   text-align: center;
   color: #696984;
@@ -493,6 +512,19 @@ iframe {
   position: absolute;
   left: 22%;
   bottom: 15%;
+}
+
+.card-2 > span,
+.card-3 > span {
+  color: #525596;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.card-2 h1 > span {
+  color: #f48c06;
 }
 
 #blog span {
@@ -603,10 +635,6 @@ iframe {
   gap: 20px;
 }
 
-.card-1 img {
-  width: 120px;
-}
-
 .card-2 {
   display: grid;
   grid-template-columns: 1fr;
@@ -616,28 +644,11 @@ iframe {
   gap: 20px;
 }
 
-.card-2 > span,
-.card-3 > span {
-  color: #525596;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  letter-spacing: 4px;
-}
-
 .card-2 h1 {
   color: #2f327d;
   font-size: 36px;
 }
 
-.card-2 h1 > span {
-  color: #f48c06;
-}
-
-.card-2 > p {
-  font-family: "Nunito Sans", sans-serif;
-  color: #696984;
-}
 
 .card-2 > button,
 .card-3 button {
@@ -652,16 +663,6 @@ iframe {
 .card-3 h1 {
   font-family: "Nunito Sans", sans-serif;
   color: #2f327d;
-}
-
-.card-3 p {
-  font-family: Poppins, sans-serif;
-  color: #696984;
-  letter-spacing: 2px;
-}
-
-.card-3 button > img {
-  width: 48px;
 }
 
 .card-3 button {
