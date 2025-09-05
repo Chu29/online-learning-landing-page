@@ -7,6 +7,21 @@
   font-family: poppins, sans-serif;
 }
 
+.logorow {
+  display: flex;
+  justify-content: space-around;
+  padding: 1% 10%;
+}
+
+.boxtext img {
+  width: 150px;
+  margin: -70px auto;
+  position: relative;
+  top: -45px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
 button {
   border-radius: 80px;
   padding: 16px 32px;
@@ -376,12 +391,6 @@ iframe {
   color: #696984;
 }
 
-.logorow {
-  display: flex;
-  justify-content: space-around;
-  padding: 1% 10%;
-}
-
 .logorow img {
   width: 10%;
 }
@@ -436,15 +445,6 @@ iframe {
   width: 100%;
   padding: 6% 0;
   color: #2f327d;
-}
-
-.boxtext img {
-  width: 150px;
-  margin: -70px auto;
-  position: relative;
-  top: -45px;
-  cursor: pointer;
-  transition: 0.2s;
 }
 
 .boxtext img:hover {
