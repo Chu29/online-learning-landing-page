@@ -5,3 +5,113 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+#testimonial {
+  font-family: Poppins, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  gap: 40px;
+  margin-top: 80px;
+}
+
+.card-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 50%;
+  gap: 20px;
+}
+
+.card-1 img {
+  width: 120px;
+}
+
+.card-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: start;
+  width: 70%;
+  gap: 20px;
+}
+
+.card-2 > span,
+.card-3 > span {
+  color: #525596;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.card-2 h1 {
+  color: #2f327d;
+  font-size: 36px;
+}
+
+.card-2 h1 > span {
+  color: #f48C06;
+}
+
+.card-2 > p {
+  font-family: "Nunito Sans", sans-serif;
+  color: #696984;
+}
+
+.card-2 > button,
+.card-3 button {
+  border: 1px solid #f48C06;
+  background-color: #fff;
+  padding: 12px 20px;
+  border-radius: 80px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #f48c06;
+}
+
+.card-3 h1 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #2f327d;
+}
+
+.card-3 p {
+  font-family: Poppins, sans-serif;
+  color: #696984;
+  letter-spacing: 2px;
+}
+
+.card-3 button > img {
+  width: 48px;
+}
+
+.card-3 button {
+  display: flex;
+  align-items: center;
+  padding: 0 0  0 20px;
+  gap: 20px;
+  border: 1px solid #f48c06;
+  background-color: #fff;
+  border-radius: 80px;
+}
+
+.card-3 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.card-4 {
+  position: relative;
+}
+
+.card-4 img:first-child {
+  width: 60%;
+}
+
+.card-4 img:last-child {
+  width: 80px;
+  position: absolute;
+  top: 35%;
+  right: 32%;
+}
