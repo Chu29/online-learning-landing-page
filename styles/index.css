@@ -236,6 +236,10 @@ iframe {
   width: 90%;
 }
 
+.card-3 button > img {
+  width: 48px;
+}
+
 .email > img {
   padding: 10px;
   border-radius: 10px;
@@ -419,8 +423,8 @@ iframe {
   letter-spacing: 2px;
 }
 
-.card-3 button > img {
-  width: 48px;
+.card-5 p {
+  font-size: 12px;
 }
 
 #logotext p {
@@ -649,7 +653,6 @@ iframe {
   font-size: 36px;
 }
 
-
 .card-2 > button,
 .card-3 button {
   border: 1px solid #f48c06;
@@ -716,10 +719,6 @@ iframe {
   border-left: 10px solid salmon;
   box-shadow: 5px 5px 5px #4449;
   z-index: 1;
-}
-
-.card-5 p {
-  font-size: 12px;
 }
 
 .name-rating {
