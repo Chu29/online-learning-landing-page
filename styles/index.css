@@ -107,6 +107,11 @@ iframe {
   list-style-type: none;
 }
 
+.blog-left a {
+  color: #696984;
+  font-size: 12px;
+}
+
 .nav-links ul li a {
   text-decoration: none;
   color: #252641;
@@ -394,7 +399,6 @@ iframe {
 }
 
 .blog-content p,
-.blog-left a,
 .blog-head p {
   color: #696984;
   font-size: 12px;
@@ -485,6 +489,12 @@ iframe {
   padding: 20px;
 }
 
+.blog-right span {
+  position: absolute;
+  left: 22%;
+  bottom: 15%;
+}
+
 #blog span {
   padding: 0 20px;
   background-color: #f4c467;
@@ -529,12 +539,6 @@ iframe {
 
 .blog-right {
   gap: 20px;
-}
-
-.blog-right span {
-  position: absolute;
-  left: 22%;
-  bottom: 15%;
 }
 
 .blog-right article {
