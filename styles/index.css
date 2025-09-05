@@ -107,6 +107,11 @@ iframe {
   list-style-type: none;
 }
 
+.blog-left a {
+  color: #696984;
+  font-size: 12px;
+}
+
 .nav-links ul li a {
   text-decoration: none;
   color: #252641;
@@ -225,6 +230,10 @@ iframe {
   left: -80px;
   flex-direction: column;
   align-items: center;
+}
+
+.blog-left > img {
+  width: 90%;
 }
 
 .email > img {
@@ -370,7 +379,6 @@ iframe {
 
 .section {
   height: 100vh;
-  padding: 40% 0 0;
 }
 
 .allinoneheadertext p {
@@ -388,6 +396,12 @@ iframe {
   display: flex;
   justify-content: space-around;
   padding: 1% 10%;
+}
+
+.blog-content p,
+.blog-head p {
+  color: #696984;
+  font-size: 12px;
 }
 
 #logotext p {
@@ -452,10 +466,6 @@ iframe {
 }
 
 @media screen and (max-width: 770px) {
-  .section {
-    padding: 50% 0 0;
-  }
-
   .allinoneheaderbox2 {
     display: flex;
     flex-wrap: wrap;
@@ -470,5 +480,108 @@ iframe {
   .boxtext img {
     top: -30px;
     margin: -45px auto;
+  }
+}
+
+#blog {
+  height: 100vh;
+  font-family: Poppins, sans-serif;
+  padding: 20px;
+}
+
+.blog-right span {
+  position: absolute;
+  left: 22%;
+  bottom: 15%;
+}
+
+#blog span {
+  padding: 0 20px;
+  background-color: #f4c467;
+  font-size: 12px;
+  border-radius: 80px;
+  text-align: center;
+}
+
+.blog-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.blog-head h1 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #2f327d;
+  font-size: 26px;
+}
+
+.blog-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.blog-content h3 {
+  color: #252641;
+  font-weight: 500;
+}
+
+.blog-left,
+.blog-right {
+  display: flex;
+  flex-direction: column;
+  max-width: 640px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.blog-right {
+  gap: 20px;
+}
+
+.blog-right article {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.article-content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 425px) {
+  #blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-left,
+  .blog-left a {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .blog-left > img {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .blog-right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-right article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-right article span {
+    display: none;
   }
 }
