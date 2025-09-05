@@ -393,6 +393,13 @@ iframe {
   padding: 1% 10%;
 }
 
+.blog-content p,
+.blog-left a,
+.blog-head p {
+  color: #696984;
+  font-size: 12px;
+}
+
 #logotext p {
   text-align: center;
   color: #696984;
@@ -509,13 +516,6 @@ iframe {
 .blog-content h3 {
   color: #252641;
   font-weight: 500;
-}
-
-.blog-content p,
-.blog-left a,
-.blog-head p {
-  color: #696984;
-  font-size: 12px;
 }
 
 .blog-left,
