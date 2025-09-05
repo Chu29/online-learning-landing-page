@@ -548,3 +548,36 @@ iframe {
 .blog-left > img {
   width: 90%;
 }
+
+@media screen and (max-width: 425px) {
+  #blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-left,
+  .blog-left a {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .blog-left > img {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .blog-right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-right article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-right article span {
+    display: none;
+  }
+}
