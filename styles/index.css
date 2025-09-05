@@ -74,7 +74,6 @@ span {
 .featuretextpic3 {
   display: flex;
   justify-content: center;
-  background-image: 
 }
 
 .featuretextpic3 img {
@@ -94,7 +93,9 @@ span {
   border-radius: 15px;
   box-shadow: 0 0 25px -10px;
   width: 35%;
+  height: auto;
   padding: 1%;
+  position: relative;
 }
 
 .featuretextpic4 .mg {
@@ -104,12 +105,13 @@ span {
 }
 
 .featuretextpic4 .overlaypic {
-  position: relative;
-  top: -100px;
-  padding: -18px 0 0 0;
+  position: absolute;
+  top: 60%;
+  left: 10%;
 }
 
 .overlaypic img {
+  width: 100%;
 }
 
 .featuretextpic5 {
@@ -126,5 +128,30 @@ span {
   border-radius: 15px 15px 0 0;
 }
 
+.smfbutton {
+  width: 25%;
+  border: 0.5px solid #f48c06;
+  border-radius: 25px;
+  text-align: center;
+  padding: 1% 0;
+}
 
+.smfbutton a {
+  color: #f48c06;
+  text-decoration: none;
+}
 
+.featuretextpic6 {
+  position: relative;
+  width: 40%;
+  height: auto;
+}
+
+.featuretextpic6 img {
+  width: 100%;
+}
+
+.featuretextpic6 .overlaypic6 {
+  position: absolute;
+  left: 50px;
+}
