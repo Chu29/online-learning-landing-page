@@ -9,10 +9,11 @@
 #testimonial {
   font-family: Poppins, sans-serif;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
   place-items: center;
   gap: 40px;
   margin-top: 80px;
+  position: relative;
 }
 
 .card-1 {
@@ -107,6 +108,7 @@
 
 .card-4 img:first-child {
   width: 60%;
+  border-radius: 20px;
 }
 
 .card-4 img:last-child {
@@ -114,4 +116,37 @@
   position: absolute;
   top: 35%;
   right: 32%;
+}
+
+.card-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #80819a;
+  position: absolute;
+  bottom: -70px;
+  right: 190px;
+  width: 450px;
+  letter-spacing: 2px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  border-left: 10px solid salmon;
+  box-shadow: 5px 5px 5px #44444499;
+  z-index: 1;
+}
+
+.card-5 p {
+  font-size: 12px;
+}
+
+.name-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name-rating figcaption {
+  font-size: 10px;
 }
