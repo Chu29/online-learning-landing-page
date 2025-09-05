@@ -4,15 +4,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
 }
+
 .section {
   height: 100vh;
 }
 
-#logotext p, .allinoneheadertext p {
+#logotext p,
+.allinoneheadertext p {
   text-align: center;
+
 }
+
 .logorow {
   display: flex;
   justify-content: space-around;
@@ -74,10 +78,9 @@
 .boxtext img {
   width: 150px;
   margin: -70px auto;
-  position: relative ;
+  position: relative;
   top: -45px;
 }
-
 
 button {
   border-radius: 80px;
