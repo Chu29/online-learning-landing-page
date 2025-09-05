@@ -7,10 +7,8 @@
   font-family: poppins, sans-serif;
 }
 
-.logorow {
-  display: flex;
-  justify-content: space-around;
-  padding: 1% 10%;
+.logorow img {
+  width: 10%;
 }
 
 .boxtext img {
@@ -386,13 +384,16 @@ iframe {
   color: #696984;
 }
 
+.logorow {
+  display: flex;
+  justify-content: space-around;
+  padding: 1% 10%;
+}
+
+
 #logotext p {
   text-align: center;
   color: #696984;
-}
-
-.logorow img {
-  width: 10%;
 }
 
 #allinone {
