@@ -6,6 +6,30 @@
   box-sizing: border-box;
 }
 
+.what-h1 {
+  display: block;
+  font-size: 2em;
+  color: rgb(4, 4, 122);
+  margin-top: 0.67;
+  margin-bottom: 0.67;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+
+.what-h1 span {
+  color: rgba(247, 210, 3, 0.952);
+}
+
+.intro-paragraph {
+  color: rgb(122, 122, 214);
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  flex-direction: row;
+  border-radius: 20px;
+}
 .wrapper {
   display: flex;
   width: 100%;
@@ -29,15 +53,29 @@ text-align: center;
   background-position: center;
   display: flex;
   align-content: center;
+  border-radius: 5%;
+  width: 50%;
+  width: 50px;
 }
 
 .right-section {
   background-image: url("../images/Rectangle\ 21.png");
   background-size: cover;
   background-position: center;
+  display: flex;
+  align-content: center;
+  border-radius: 5%;
+  width: 50px;
 }
 
 .flex-container {
       display: flex;
       gap: 20px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  flex-direction: column;
 }
