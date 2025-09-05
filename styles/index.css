@@ -370,7 +370,6 @@ iframe {
 
 .section {
   height: 100vh;
-  padding: 40% 0 0;
 }
 
 .allinoneheadertext p {
@@ -452,10 +451,6 @@ iframe {
 }
 
 @media screen and (max-width: 770px) {
-  .section {
-    padding: 50% 0 0;
-  }
-
   .allinoneheaderbox2 {
     display: flex;
     flex-wrap: wrap;
@@ -476,6 +471,15 @@ iframe {
 #blog {
   height: 100vh;
   font-family: Poppins, sans-serif;
+  padding: 20px;
+}
+
+#blog span {
+  padding: 0 20px;
+  background-color: #f4c467;
+  font-size: 12px;
+  border-radius: 80px;
+  text-align: center;
 }
 
 .blog-head {
@@ -486,10 +490,28 @@ iframe {
   padding: 20px;
 }
 
+.blog-head h1 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #2f327d;
+  font-size: 26px;
+}
+
 .blog-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.blog-content h3 {
+  color: #252641;
+  font-weight: 500;
+}
+
+.blog-content p,
+.blog-left a,
+.blog-head p {
+  color: #696984;
+  font-size: 12px;
 }
 
 .blog-left,
@@ -498,12 +520,31 @@ iframe {
   flex-direction: column;
   max-width: 640px;
   justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 .blog-right {
-  max-width: 500px;
+  gap: 20px;
+}
+
+.blog-right span {
+  position: absolute;
+  left: 22%;
+  bottom: 15%;
 }
 
 .blog-right article {
   display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.article-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-left > img {
+  width: 90%;
 }
