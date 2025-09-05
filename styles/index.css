@@ -227,6 +227,10 @@ iframe {
   align-items: center;
 }
 
+.blog-left > img {
+  width: 90%;
+}
+
 .email > img {
   padding: 10px;
   border-radius: 10px;
@@ -543,10 +547,6 @@ iframe {
 .article-content {
   display: flex;
   flex-direction: column;
-}
-
-.blog-left > img {
-  width: 90%;
 }
 
 @media screen and (max-width: 425px) {
