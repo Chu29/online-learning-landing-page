@@ -236,10 +236,6 @@ iframe {
   width: 90%;
 }
 
-.card-3 button > img {
-  width: 48px;
-}
-
 .email > img {
   padding: 10px;
   border-radius: 10px;
@@ -248,6 +244,10 @@ iframe {
 
 .card-1 img {
   width: 120px;
+}
+
+.card-3 button > img {
+  width: 48px;
 }
 
 .email img:last-child {
