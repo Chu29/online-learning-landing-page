@@ -7,7 +7,7 @@
   font-family: poppins, sans-serif;
 }
 
-#section_1 {
+#sectioni {
   height: 120vh;
   padding: 10% 5%;
 }
@@ -238,7 +238,7 @@ span {
 }
 
 @media screen and (max-width: 770px) {
-  #section_1 {
+  #sectioni {
     text-align: center;
   }
 
