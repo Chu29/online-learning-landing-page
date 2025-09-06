@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
@@ -12,11 +12,15 @@
   padding: 10% 5%;
 }
 
-#section_1 h1 {
-  color: #2f327d
+.featuretext3 h1 {
+  width: 65%;
 }
 
-#section_1 p {
+#sectioni h1 {
+  color: #2f327d;
+}
+
+#sectioni p {
   color: #696984;
 }
 
@@ -111,10 +115,6 @@ span {
   margin: 10% 0;
 }
 
-.featuretext3 h1 {
-  width: 65%;
-}
-
 .featuretextpic3 {
   display: flex;
   justify-content: center;
@@ -195,7 +195,7 @@ span {
   text-decoration: none;
   padding: 12px 0;
   color: #f48c06;
-  border: .5px solid #f48c06;
+  border: 0.5px solid #f48c06;
   border-radius: 25px;
   position: relative;
   z-index: 1;
