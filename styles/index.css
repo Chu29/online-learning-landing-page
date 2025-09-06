@@ -847,4 +847,275 @@ form input {
   form {
     flex-direction: column;
   }
+  font-family: poppins, sans-serif;
+}
+
+#sectioni {
+  height: 120vh;
+  padding: 10% 5%;
+}
+
+.featuretext3 h1 {
+  width: 65%;
+}
+
+#sectioni h1 {
+  color: #2f327d;
+}
+
+#sectioni p {
+  color: #696984;
+}
+
+span {
+  color: #f48c06;
+}
+
+.feature1box {
+  margin: 3% 0;
+}
+
+.featuretext1 {
+  text-align: center;
+}
+
+.featuretext2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3% 0;
+}
+
+.featuretextpic2 {
+  width: 45%;
+  height: auto;
+  position: relative;
+}
+
+.topleft {
+  width: 25%;
+  display: flex;
+  align-items: start;
+  position: absolute;
+  top: -50px;
+  z-index: -1;
+}
+
+.bottomright {
+  width: 25%;
+  display: flex;
+  position: absolute;
+  right: 0;
+  align-items: end;
+  z-index: -1;
+}
+
+.featuretextpic2 img {
+  width: 100%;
+}
+
+.imagecircle {
+  background-color: white;
+  box-shadow: 0 0 12px 0;
+  width: 8%;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagecircle img {
+  width: 40%;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+  width: 100%;
+}
+
+.featurelrtext {
+  width: 48%;
+  border-radius: 15px;
+  transition: 0.8s;
+}
+
+.featurelrtext:hover {
+  transform: translateY(-5px);
+}
+
+.featuretext3,
+.featuretext4,
+.featuretext5,
+.featuretext6 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10% 0;
+}
+
+.featuretextpic3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 40%;
+  align-items: center;
+}
+
+.featuretextpic3 .girlpic {
+  position: absolute;
+  width: 60%;
+}
+
+.featuretextpic3 .dots {
+  width: 100%;
+}
+
+.q1 {
+  color: #717fb0;
+  background-color: #cdd8ff;
+  border-radius: 25px;
+  width: 35%;
+  text-align: center;
+}
+
+.featuretextpic4 {
+  background-color: #ffff;
+  border-radius: 15px;
+  box-shadow: 0 0 25px -10px;
+  width: 35%;
+  height: auto;
+  padding: 1%;
+  position: relative;
+}
+
+.featuretextpic4 .mg {
+  width: 100%;
+  position: relative;
+  right: -45px;
+}
+
+.featuretextpic4 .overlaypic {
+  position: absolute;
+  top: 60%;
+  right: -125px;
+}
+
+.featuretextpic5 {
+  background-color: #ffff;
+  border-radius: 15px;
+  box-shadow: 0 0 25px -10px;
+  width: 35%;
+  height: 30vh;
+}
+
+.featuretextpic5 .blsec {
+  background-color: #54aff0;
+  height: 20%;
+  border-radius: 15px 15px 0 0;
+}
+
+.buttonbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.smfbutton {
+  width: 35%;
+  margin: 70px auto 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.smfbutton a {
+  width: 100%;
+  text-decoration: none;
+  padding: 12px 0;
+  color: #f48c06;
+  border: 0.5px solid #f48c06;
+  border-radius: 25px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.smfbutton a span {
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #f48c06;
+  border-radius: 25px;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.smfbutton a:hover span {
+  width: 100%;
+}
+
+.smfbutton a:hover {
+  color: white;
+}
+
+.featuretextpic6 {
+  position: relative;
+  width: 40%;
+  height: auto;
+}
+
+.featuretextpic6 img {
+  width: 100%;
+}
+
+.featuretextpic6 .overlaypic6 {
+  position: absolute;
+  left: 50px;
+}
+
+@media screen and (max-width: 770px) {
+  #sectioni {
+    text-align: center;
+  }
+
+  .featuretextpic2,
+  .featurelrtext,
+  .featuretextpic3,
+  .featuretextpic5,
+  .featuretextpic6 {
+    width: 100%;
+  }
+
+  .featuretext3 h1 {
+    width: 100%;
+  }
+
+  .featuretextpic4 {
+    width: 85%;
+  }
+
+  .smfbutton {
+    width: 60%;
+  }
+
+  .featuretextpic4 .mg {
+    right: -20px;
+  }
+
+  .featuretextpic4 .overlaypic {
+    width: 100%;
+    top: 70%;
+    right: -55px;
+  }
+
+  .featuretextpic6 .overlaypic6 {
+    left: 25px;
+  }
 }
