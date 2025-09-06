@@ -12,6 +12,14 @@
   padding: 10% 5%;
 }
 
+#section_1 h1 {
+  color: #2f327d
+}
+
+#section_1 p {
+  color: #696984;
+}
+
 span {
   color: #f48c06;
 }
@@ -35,6 +43,25 @@ span {
 .featuretextpic2 {
   width: 45%;
   height: auto;
+  position: relative;
+}
+
+.topleft {
+  width: 25%;
+  display: flex;
+  align-items: start;
+  position: absolute;
+  top: -50px;
+  z-index: -1;
+}
+
+.bottomright {
+  width: 25%;
+  display: flex;
+  position: absolute;
+  right: 0;
+  align-items: end;
+  z-index: -1;
 }
 
 .featuretextpic2 img {
@@ -60,10 +87,17 @@ span {
   display: flex;
   justify-content: space-between;
   padding: 3%;
+  width: 100%;
 }
 
 .featurelrtext {
   width: 48%;
+  border-radius: 15px;
+  transition: 0.8s;
+}
+
+.featurelrtext:hover {
+  transform: translateY(-5px);
 }
 
 .featuretext3,
@@ -84,10 +118,18 @@ span {
 .featuretextpic3 {
   display: flex;
   justify-content: center;
+  position: relative;
+  width: 40%;
+  align-items: center;
 }
 
-.featuretextpic3 img {
-  width: 70%;
+.featuretextpic3 .girlpic {
+  position: absolute;
+  width: 60%;
+}
+
+.featuretextpic3 .dots {
+  width: 100%;
 }
 
 .q1 {
@@ -117,7 +159,7 @@ span {
 .featuretextpic4 .overlaypic {
   position: absolute;
   top: 60%;
-  left: 10%;
+  right: -125px;
 }
 
 .featuretextpic5 {
@@ -138,20 +180,46 @@ span {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 3% 0;
 }
 
 .smfbutton {
-  width: 25%;
-  border: 0.5px solid #f48c06;
-  border-radius: 25px;
+  width: 35%;
+  margin: 70px auto 0;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  padding: 1% 0;
 }
 
 .smfbutton a {
-  color: #f48c06;
+  width: 100%;
   text-decoration: none;
+  padding: 12px 0;
+  color: #f48c06;
+  border: .5px solid #f48c06;
+  border-radius: 25px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.smfbutton a span {
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #f48c06;
+  border-radius: 25px;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.smfbutton a:hover span {
+  width: 100%;
+}
+
+.smfbutton a:hover {
+  color: white;
 }
 
 .featuretextpic6 {
@@ -187,7 +255,7 @@ span {
   }
 
   .featuretextpic4 {
-    width: 90%;
+    width: 85%;
   }
 
   .smfbutton {
@@ -195,14 +263,15 @@ span {
   }
 
   .featuretextpic4 .mg {
-    right: -25px;
+    right: -20px;
   }
 
   .featuretextpic4 .overlaypic {
     width: 100%;
     top: 70%;
-    right: -50rem;
-}
+    right: -55px;
+  }
+
   .featuretextpic6 .overlaypic6 {
     left: 25px;
   }
