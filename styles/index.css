@@ -838,3 +838,12 @@ form input {
 .footer-links ul li {
   list-style-type: none;
 }
+
+@media screen and (max-width: 425px) {
+  .footer-cta p {
+    font-size: 18px;
+  }
+  form {
+    flex-direction: column;
+  }
+}
