@@ -9,20 +9,20 @@
 .what-h1 {
   display: block;
   font-size: 2em;
-  color: rgb(4, 4, 122);
+  color: #04047a;
   margin-top: 0.67;
   margin-bottom: 0.67;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 0px;
+  margin-right: 0px;
   text-align: center;
 }
 
 .what-h1 span {
-  color: rgba(247, 210, 3, 0.952);
+  color: #f7d203f3;
 }
 
 .intro-paragraph {
-  color: rgb(122, 122, 214);
+  color: #7a7ad6;
   text-align: center;
   line-height: 1.5;
   padding-top: 0.5%;
@@ -30,6 +30,7 @@
   flex-direction: row;
   border-radius: 20px;
 }
+
 .wrapper {
   display: flex;
   width: 100%;
@@ -37,8 +38,8 @@
   gap: 2rem;
 }
 
-.left-section, .right-section {
-flex: 1;
+.left-section .right-section {
+flex: 1px;
 height: 300px;
 display: flex;
 justify-content: center;
@@ -72,6 +73,7 @@ text-align: center;
       display: flex;
       gap: 20px;
 }
+
 .container {
   display: flex;
   justify-content: space-around;
