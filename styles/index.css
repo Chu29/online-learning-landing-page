@@ -164,6 +164,11 @@ iframe {
   font-size: 24px;
 }
 
+form button {
+  color: #fff;
+  background-color: #545ae7;
+}
+
 .hero-cta button {
   font-weight: 600;
 }
@@ -425,6 +430,12 @@ iframe {
 
 .card-5 p {
   font-size: 12px;
+}
+
+.footer-cta p {
+  color: #b2b3cf;
+  font-size: 26px;
+  letter-spacing: 2px;
 }
 
 #logotext p {
@@ -766,5 +777,74 @@ iframe {
 @media screen and (max-width: 425px) {
   .card-5 {
     display: none;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  background-color: #252641;
+  color: #fff;
+  gap: 30px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-txt {
+  font-size: 22px;
+  width: 150px;
+}
+
+.footer-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  gap: 20px;
+}
+
+form input {
+  border-radius: 80px;
+  background-color: transparent;
+  border: 1px solid #83839a;
+  padding: 20px 30px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: #b2b3cf;
+}
+
+.footer-links ul {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links ul li {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 425px) {
+  .footer-cta p {
+    font-size: 18px;
+  }
+
+  form {
+    flex-direction: column;
   }
 }
