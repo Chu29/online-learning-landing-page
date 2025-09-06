@@ -164,6 +164,11 @@ iframe {
   font-size: 24px;
 }
 
+form button {
+  color: #fff;
+  background-color: #545ae7;
+}
+
 .hero-cta button {
   font-weight: 600;
 }
@@ -425,6 +430,12 @@ iframe {
 
 .card-5 p {
   font-size: 12px;
+}
+
+.footer-cta p {
+  color: #b2b3cf;
+  font-size: 26px;
+  letter-spacing: 2px;
 }
 
 #logotext p {
@@ -799,12 +810,6 @@ iframe {
   justify-content: center;
 }
 
-.footer-cta p {
-  color: #b2b3cf;
-  font-size: 26px;
-  letter-spacing: 2px;
-}
-
 form {
   display: flex;
   gap: 20px;
@@ -815,11 +820,6 @@ form input {
   background-color: transparent;
   border: 1px solid #83839a;
   padding: 20px 30px;
-}
-
-form button {
-  color: #fff;
-  background-color: #545ae7;
 }
 
 .footer-links {
