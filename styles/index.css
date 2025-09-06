@@ -55,7 +55,7 @@ iframe {
   font-family: Poppins, sans-serif;
   margin: 0 auto;
   background-color: #fff2e1;
-  height: 100vh;
+  height: auto;
   padding: 60px;
   display: flex;
   flex-direction: column;
@@ -391,7 +391,7 @@ form button {
 }
 
 .section {
-  height: 100vh;
+  height: auto;
 }
 
 .allinoneheadertext p {
@@ -518,7 +518,7 @@ form button {
 }
 
 #blog {
-  height: 100vh;
+  height: auto;
   font-family: Poppins, sans-serif;
   padding: 20px;
 }
@@ -641,6 +641,7 @@ form button {
   gap: 40px;
   margin: 80px 0;
   position: relative;
+  height: auto;
 }
 
 .card-1 {
@@ -847,11 +848,10 @@ form input {
   form {
     flex-direction: column;
   }
-  font-family: poppins, sans-serif;
 }
 
 #sectioni {
-  height: 120vh;
+  height: auto;
   padding: 10% 5%;
 }
 
